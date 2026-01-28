@@ -5,8 +5,8 @@
 }
 
 body {
-  background: #0b0b0b;
-  color: #eaeaea;
+  background: #0a0a0a;
+  color: #f2f2f2;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -17,123 +17,35 @@ body {
   padding: 25px 60px;
   position: fixed;
   width: 100%;
-  background: rgba(0,0,0,0.8);
+  background: linear-gradient(
+    to right,
+    #3b0a12,
+    #5a0f1b
+  );
   z-index: 100;
 }
 
 .logo {
   font-family: 'Playfair Display', serif;
-  letter-spacing: 4px;
+  letter-spacing: 5px;
   font-size: 22px;
+  color: #e6c97a;
 }
 
 .navbar a {
   margin-left: 30px;
-  color: #c9a24d;
+  color: #f2d98c;
   text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1px;
 }
 
 /* HERO */
 .hero {
   height: 100vh;
-  background: url('assets/hero.jpg') center/cover no-repeat;
-  display: flex;
-  align-items: center;
-  padding-left: 80px;
-}
-
-.hero h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 60px;
-}
-
-.hero p {
-  margin: 15px 0;
-  letter-spacing: 2px;
-}
-
-.hero button {
-  padding: 12px 30px;
-  border: none;
-  background: #c9a24d;
-  color: black;
-  cursor: pointer;
-  font-weight: 500;
-}
-
-/* DASHBOARD */
-.dashboard {
-  padding: 120px 60px;
-  text-align: center;
-}
-
-.dash-grid {
-  margin-top: 40px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
-  gap: 25px;
-}
-
-.dash-card {
-  border: 1px solid #c9a24d;
-  padding: 40px;
-  font-family: 'Playfair Display', serif;
-  letter-spacing: 1px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.dash-card:hover {
-  background: #c9a24d;
-  color: black;
-}
-
-/* COLLECTION */
-.collection {
-  padding: 80px 60px;
-}
-
-.collection h2 {
-  text-align: center;
-  font-family: 'Playfair Display', serif;
-  margin-bottom: 50px;
-}
-
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
-  gap: 40px;
-}
-
-.product-card {
-  background: #111;
-  padding: 20px;
-  border-radius: 10px;
-  text-align: center;
-}
-
-.product-card img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-}
-
-.product-card span {
-  color: #c9a24d;
-  font-weight: bold;
-}
-
-/* ABOUT */
-.about {
-  padding: 100px 80px;
-  text-align: center;
-  background: #050505;
-}
-
-/* FOOTER */
-footer {
-  padding: 30px;
-  text-align: center;
-  font-size: 14px;
-  color: #888;
-}
+  background:
+    linear-gradient(
+      rgba(58,10,18,0.7),
+      rgba(10,10,10,0.9)
+    ),
+    url('assets/hero.jpg'
