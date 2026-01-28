@@ -48,4 +48,146 @@ body {
       rgba(58,10,18,0.7),
       rgba(10,10,10,0.9)
     ),
-    url('assets/hero.jpg'
+    url('assets/hero.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 64px;
+  color: #e6c97a;
+}
+
+.hero p {
+  margin: 18px 0;
+  letter-spacing: 2px;
+  color: #f5e6b8;
+}
+
+.hero button {
+  padding: 14px 36px;
+  border: none;
+  background: #c9a24d;
+  color: #3b0a12;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* DASHBOARD */
+.dashboard {
+  padding: 130px 60px;
+  text-align: center;
+  background: #5a0f1b;
+}
+
+.dashboard h2 {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 2px;
+  color: #e6c97a;
+}
+
+.dash-grid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 30px;
+}
+
+.dash-card {
+  background: #3b0a12;
+  border: 1px solid #c9a24d;
+  padding: 45px;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.35s ease;
+  color: #f5e6b8;
+}
+
+.dash-card:hover {
+  background: #c9a24d;
+  color: #3b0a12;
+  transform: translateY(-6px);
+}
+
+/* COLLECTION */
+.collection {
+  padding: 100px 60px;
+  background: #0a0a0a;
+}
+
+.collection h2 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 60px;
+  color: #e6c97a;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+  gap: 45px;
+}
+
+.product-card {
+  background: linear-gradient(
+    to bottom,
+    #5a0f1b,
+    #3b0a12
+  );
+  padding: 25px;
+  border-radius: 14px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.product-card h3 {
+  margin-top: 18px;
+  font-family: 'Playfair Display', serif;
+}
+
+.product-card span {
+  display: block;
+  margin-top: 10px;
+  color: #e6c97a;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* ABOUT */
+.about {
+  padding: 120px 80px;
+  text-align: center;
+  background: #3b0a12;
+}
+
+.about h2 {
+  font-family: 'Playfair Display', serif;
+  color: #e6c97a;
+  margin-bottom: 25px;
+}
+
+.about p {
+  max-width: 800px;
+  margin: auto;
+  color: #f5e6b8;
+  line-height: 1.8;
+}
+
+/* FOOTER */
+footer {
+  padding: 35px;
+  text-align: center;
+  font-size: 13px;
+  background: #0a0a0a;
+  color: #888;
+}
