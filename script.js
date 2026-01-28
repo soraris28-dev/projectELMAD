@@ -1,1 +1,1 @@
-console.log("Welcome to Elmad Parfum Website");
+console.log("ELMAD PARFUM – Luxury UI Loaded");
