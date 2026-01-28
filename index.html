@@ -1,68 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Elmad Parfum</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>ELMAD PARFUM</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header>
-    <div class="logo">ELMAD PARFUM</div>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#products">Products</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-    </nav>
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="logo">ELMAD</div>
+  <nav>
+    <a href="#dashboard">Dashboard</a>
+    <a href="#collection">Collection</a>
+    <a href="#about">Maison</a>
+  </nav>
 </header>
 
-<section class="hero" id="home">
-    <h1>Discover Your Signature Scent</h1>
-    <p>Premium Inspired Perfumes for Every Personality</p>
-    <button>Shop Now</button>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <h1>The Art of Fragrance</h1>
+    <p>Luxury Inspired Perfume House</p>
+    <button>Explore Collection</button>
+  </div>
 </section>
 
-<section class="products" id="products">
-    <h2>Our Collection</h2>
-    <div class="product-grid">
+<!-- DASHBOARD -->
+<section class="dashboard" id="dashboard">
+  <h2>Dashboard</h2>
 
-        <div class="card">
-            <img src="assets/perfume1.jpg">
-            <h3>Elmad Noir</h3>
-            <p>Elegant & Mysterious</p>
-            <span>RM89</span>
-        </div>
+  <div class="dash-grid">
+    <div class="dash-card">Men Collection</div>
+    <div class="dash-card">Women Collection</div>
+    <div class="dash-card">Oud Series</div>
+    <div class="dash-card">Floral Series</div>
+    <div class="dash-card">Best Seller</div>
+    <div class="dash-card">New Arrival</div>
+  </div>
+</section>
 
-        <div class="card">
-            <img src="assets/perfume2.jpg">
-            <h3>Elmad Blossom</h3>
-            <p>Fresh & Floral</p>
-            <span>RM79</span>
-        </div>
+<!-- COLLECTION -->
+<section class="collection" id="collection">
+  <h2>Signature Collection</h2>
 
-        <div class="card">
-            <img src="assets/perfume3.jpg">
-            <h3>Elmad Oud</h3>
-            <p>Bold & Luxurious</p>
-            <span>RM109</span>
-        </div>
+  <div class="product-grid">
 
+    <div class="product-card">
+      <img src="assets/noir.jpg">
+      <h3>Elmad Noir</h3>
+      <p>Dark · Elegant · Masculine</p>
+      <span>RM 109</span>
     </div>
+
+    <div class="product-card">
+      <img src="assets/oud.jpg">
+      <h3>Elmad Oud Royale</h3>
+      <p>Warm · Woody · Luxurious</p>
+      <span>RM 139</span>
+    </div>
+
+    <div class="product-card">
+      <img src="assets/floral.jpg">
+      <h3>Elmad Fleur</h3>
+      <p>Soft · Floral · Feminine</p>
+      <span>RM 99</span>
+    </div>
+
+  </div>
 </section>
 
+<!-- ABOUT -->
 <section class="about" id="about">
-    <h2>About Elmad Parfum</h2>
-    <p>
-        Elmad Parfum offers high-quality inspired fragrances crafted to deliver
-        long-lasting scent and confidence. Inspired by luxury, made affordable.
-    </p>
+  <h2>Maison Elmad</h2>
+  <p>
+    Elmad Parfum is a modern perfume house inspired by European luxury fragrance
+    philosophy. Each scent is carefully crafted to reflect elegance, confidence,
+    and timeless sophistication.
+  </p>
 </section>
 
-<footer id="contact">
-    <p>📍 Malaysia | 📞 012-3456789 | 📧 elmadparfum@gmail.com</p>
-    <p>© 2026 Elmad Parfum. All Rights Reserved.</p>
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 ELMAD PARFUM · Crafted with Elegance</p>
 </footer>
 
 <script src="script.js"></script>
