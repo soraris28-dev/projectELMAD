@@ -1,155 +1,97 @@
-*{margin:0;padding:0;box-sizing:border-box}
-body{
-  background:#0a0a0a;
-  color:#f2f2f2;
-  font-family:'Montserrat',sans-serif;
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #1a0006;
+    color: #fff;
 }
 
-/* NAVBAR */
-.navbar{
-  display:flex;
-  justify-content:space-between;
-  padding:25px 60px;
-  position:fixed;
-  width:100%;
-  background:linear-gradient(to right,#3b0a12,#5a0f1b);
-  z-index:100;
-}
-.logo{
-  font-family:'Playfair Display',serif;
-  letter-spacing:5px;
-  color:#e6c97a;
-}
-.navbar a{
-  margin-left:30px;
-  color:#f5e6b8;
-  text-decoration:none;
+header {
+    background: #2b000d;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* HERO */
-.hero{
-  height:100vh;
-  background:linear-gradient(rgba(58,10,18,.7),rgba(10,10,10,.9)),
-  url('assets/hero.jpg') center/cover no-repeat;
-  display:flex;
-  align-items:center;
-  padding-left:80px;
-}
-.hero h1{
-  font-size:64px;
-  color:#e6c97a;
-  font-family:'Playfair Display',serif;
-}
-.hero button{
-  margin-top:20px;
-  padding:14px 36px;
-  border:none;
-  background:#c9a24d;
-  color:#3b0a12;
-  font-weight:bold;
-  cursor:pointer;
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: gold;
+    letter-spacing: 2px;
 }
 
-/* DASHBOARD */
-.dashboard{
-  padding:130px 60px;
-  background:#5a0f1b;
-  text-align:center;
-}
-.dashboard h2{
-  color:#e6c97a;
-  font-family:'Playfair Display',serif;
-}
-.dash-grid{
-  margin-top:50px;
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-  gap:30px;
-}
-.dash-card{
-  background:#3b0a12;
-  padding:45px;
-  border:1px solid #c9a24d;
-  color:#f5e6b8;
-  text-decoration:none;
-  transition:.3s;
-}
-.dash-card:hover{
-  background:#c9a24d;
-  color:#3b0a12;
+nav a {
+    color: gold;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 500;
 }
 
-/* COLLECTION */
-.collection{
-  padding:100px 60px;
-}
-.collection h2{
-  text-align:center;
-  margin-bottom:60px;
-  color:#e6c97a;
-  font-family:'Playfair Display',serif;
-}
-.product-grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-  gap:45px;
-}
-.product-card{
-  background:linear-gradient(to bottom,#5a0f1b,#3b0a12);
-  padding:25px;
-  border-radius:14px;
-  text-align:center;
-}
-.product-card img{
-  width:100%;
-  height:320px;
-  object-fit:cover;
-  border-radius:10px;
-}
-.product-card span{
-  display:block;
-  margin-top:10px;
-  color:#e6c97a;
-  font-weight:bold;
+.hero {
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(26,0,6,0.9)),
+                url('https://images.unsplash.com/photo-1594035910387-fea47794261f');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-/* BUTTON */
-.buy-btn{
-  margin-top:15px;
-  padding:10px 25px;
-  background:#c9a24d;
-  border:none;
-  color:#3b0a12;
-  font-weight:bold;
-  cursor:pointer;
+.hero h1 {
+    font-size: 60px;
+    color: gold;
 }
 
-/* FOOTER */
-footer{
-  padding:35px;
-  text-align:center;
-  background:#0a0a0a;
-  color:#888;
+.section {
+    padding: 80px 60px;
 }
 
-.dashboard{
-  display:flex;
-  justify-content:center;
-  gap:40px;
-  padding:200px 60px;
-  background:#5a0f1b;
+.section h2 {
+    color: gold;
+    margin-bottom: 40px;
+    font-size: 36px;
 }
 
-.dash-card{
-  padding:40px 60px;
-  background:#3b0a12;
-  color:#e6c97a;
-  text-decoration:none;
-  border:1px solid #c9a24d;
-  font-family:'Playfair Display',serif;
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
 }
 
-.back{
-  color:#e6c97a;
-  text-decoration:none;
+.card {
+    background: #33000f;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid gold;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background: #4d0018;
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+button {
+    background: gold;
+    color: #1a0006;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #2b000d;
+    color: gold;
 }
