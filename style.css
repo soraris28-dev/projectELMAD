@@ -131,3 +131,25 @@ footer{
   background:#0a0a0a;
   color:#888;
 }
+
+.dashboard{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+  padding:200px 60px;
+  background:#5a0f1b;
+}
+
+.dash-card{
+  padding:40px 60px;
+  background:#3b0a12;
+  color:#e6c97a;
+  text-decoration:none;
+  border:1px solid #c9a24d;
+  font-family:'Playfair Display',serif;
+}
+
+.back{
+  color:#e6c97a;
+  text-decoration:none;
+}
