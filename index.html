@@ -9,80 +9,69 @@
 </head>
 <body>
 
-<!-- NAVBAR -->
 <header class="navbar">
-  <div class="logo">ELMAD</div>
+  <div class="logo">ELMAD PARFUM</div>
   <nav>
     <a href="#dashboard">Dashboard</a>
-    <a href="#collection">Collection</a>
-    <a href="#about">Maison</a>
+    <a href="#bestseller">Best Seller</a>
+    <a href="#newarrival">New Arrival</a>
+    <a href="#arabic">Arabic Series</a>
   </nav>
 </header>
 
-<!-- HERO -->
 <section class="hero">
   <div class="hero-text">
     <h1>The Art of Fragrance</h1>
     <p>Luxury Inspired Perfume House</p>
-    <button>Explore Collection</button>
+    <button onclick="scrollToSection()">Explore Now</button>
   </div>
 </section>
 
-<!-- DASHBOARD -->
 <section class="dashboard" id="dashboard">
-  <h2>Dashboard</h2>
-
+  <h2>Explore Elmad Collection</h2>
   <div class="dash-grid">
-    <div class="dash-card">Men Collection</div>
-    <div class="dash-card">Women Collection</div>
-    <div class="dash-card">Oud Series</div>
-    <div class="dash-card">Floral Series</div>
-    <div class="dash-card">Best Seller</div>
-    <div class="dash-card">New Arrival</div>
+    <a href="#bestseller" class="dash-card">Best Seller of The Month</a>
+    <a href="#newarrival" class="dash-card">New Arrival</a>
+    <a href="#arabic" class="dash-card">Arabic Perfume</a>
   </div>
 </section>
 
-<!-- COLLECTION -->
-<section class="collection" id="collection">
-  <h2>Signature Collection</h2>
-
+<section class="collection" id="bestseller">
+  <h2>Best Seller of The Month</h2>
   <div class="product-grid">
-
     <div class="product-card">
       <img src="assets/noir.jpg">
       <h3>Elmad Noir</h3>
-      <p>Dark · Elegant · Masculine</p>
-      <span>RM 109</span>
+      <span>RM109</span>
+      <button class="buy-btn">Buy Now</button>
     </div>
-
-    <div class="product-card">
-      <img src="assets/oud.jpg">
-      <h3>Elmad Oud Royale</h3>
-      <p>Warm · Woody · Luxurious</p>
-      <span>RM 139</span>
-    </div>
-
-    <div class="product-card">
-      <img src="assets/floral.jpg">
-      <h3>Elmad Fleur</h3>
-      <p>Soft · Floral · Feminine</p>
-      <span>RM 99</span>
-    </div>
-
   </div>
 </section>
 
-<!-- ABOUT -->
-<section class="about" id="about">
-  <h2>Maison Elmad</h2>
-  <p>
-    Elmad Parfum is a modern perfume house inspired by European luxury fragrance
-    philosophy. Each scent is carefully crafted to reflect elegance, confidence,
-    and timeless sophistication.
-  </p>
+<section class="collection" id="newarrival">
+  <h2>New Arrival</h2>
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="assets/floral.jpg">
+      <h3>Elmad Fleur</h3>
+      <span>RM99</span>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+  </div>
 </section>
 
-<!-- FOOTER -->
+<section class="collection" id="arabic">
+  <h2>Arabic Perfume Series</h2>
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="assets/oud.jpg">
+      <h3>Elmad Oud Royale</h3>
+      <span>RM139</span>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+  </div>
+</section>
+
 <footer>
   <p>© 2026 ELMAD PARFUM · Crafted with Elegance</p>
 </footer>
